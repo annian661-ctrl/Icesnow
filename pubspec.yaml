@@ -1,0 +1,50 @@
+name: annian
+description: "冰雪助手 - 网盘解析下载工具"
+publish_to: 'none'
+version: 1.1.7+18
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # 状态管理
+  flutter_riverpod: ^2.6.1
+
+  # 网络请求
+  dio: ^5.7.0
+
+  # WebView 登录
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.0.0
+
+  # 本地存储
+  shared_preferences: ^2.3.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+
+  # 加密
+  crypto: ^3.0.6
+  encrypt: ^5.0.3
+  pointycastle: ^3.9.1
+
+  # 工具
+  intl: ^0.19.0
+  url_launcher: ^6.3.1
+  package_info_plus: ^8.1.1
+  device_info_plus: ^11.1.1
+  permission_handler: ^11.3.1
+  wakelock_plus: ^1.2.5
+  file_picker: ^8.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
